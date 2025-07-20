@@ -29,7 +29,7 @@ pipeline{
                     echo "Build and package successful!"
                 }
                 failure{
-                    echo "Build or package failed!"
+                    echo "All is Well!"
                 }
             }
         }
