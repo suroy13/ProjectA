@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-20T11:00:18 GMT-04:00" name="Flight Booking App" finished-at="2025-07-20T11:00:31 GMT-04:00" duration-ms="12640">
+    <groups>
+      <group name="shoppingKart">
+        <method signature="ShoppingCart.dynamicdopdown()[pri:0, instance:practice.com.ShoppingCart@327514f]" name="dynamicdopdown" class="practice.com.ShoppingCart"/>
+      </group> <!-- shoppingKart -->
+      <group name="printing">
+        <method signature="DropdownPracticeTest.secondgroup()[pri:0, instance:com.dropdownpractice.DropdownPracticeTest@145f66e3]" name="secondgroup" class="com.dropdownpractice.DropdownPracticeTest"/>
+      </group> <!-- printing -->
+    </groups>
+    <test started-at="2025-07-20T11:00:18 GMT-04:00" name="SpiceJet" finished-at="2025-07-20T11:00:31 GMT-04:00" duration-ms="12640">
+      <class name="com.dropdownpractice.DropdownPracticeTest">
+        <test-method signature="secondgroup()[pri:0, instance:com.dropdownpractice.DropdownPracticeTest@145f66e3]" started-at="2025-07-20T11:00:30 GMT-04:00" name="secondgroup" finished-at="2025-07-20T11:00:30 GMT-04:00" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondgroup -->
+      </class> <!-- com.dropdownpractice.DropdownPracticeTest -->
+      <class name="practice.com.ShoppingCart">
+        <test-method is-config="true" signature="login()[pri:0, instance:practice.com.ShoppingCart@327514f]" started-at="2025-07-20T11:00:18 GMT-04:00" name="login" finished-at="2025-07-20T11:00:30 GMT-04:00" duration-ms="11642" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="dynamicdopdown()[pri:0, instance:practice.com.ShoppingCart@327514f]" started-at="2025-07-20T11:00:30 GMT-04:00" name="dynamicdopdown" finished-at="2025-07-20T11:00:31 GMT-04:00" duration-ms="757" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dynamicdopdown -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:practice.com.ShoppingCart@327514f]" started-at="2025-07-20T11:00:31 GMT-04:00" name="TearDown" finished-at="2025-07-20T11:00:31 GMT-04:00" duration-ms="188" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- practice.com.ShoppingCart -->
+    </test> <!-- SpiceJet -->
+  </suite> <!-- Flight Booking App -->
+</testng-results>
