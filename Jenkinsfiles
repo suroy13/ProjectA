@@ -25,6 +25,14 @@ pipeline{
                 bat "mvn package"
             }
             post{
+               always {
+    publishHTML([
+      reportDir: 'target/site',
+      reportFiles: 'index.html',
+      reportName: 'Jenkins Pipeline Test Report'
+    ])
+  }
+
                 success{
                     echo "Build and package successful!"
                 }
